@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "everbloom",
+    "name": "Ever Bloom",
     "slug": "everbloom",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "everbloom"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
